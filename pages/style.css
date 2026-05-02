@@ -8,6 +8,9 @@
   --spacing-2xl: 3rem;
   --spacing-3xl: 4rem;
   --color-accent: #7a1f2e;
+  --color-grass: #22a047;
+  --color-grass-hover: #1b853b;
+  --color-on-grass: #ffffff;
   --color-border: #bdbdbd;
   --font-size-lg: clamp(1.125rem, 1.05rem + 0.5vw, 1.35rem);
   --font-size-sm: clamp(0.875rem, 0.86rem + 0.12vw, 0.95rem);
@@ -731,6 +734,44 @@
   border-color: color-mix(in oklab, var(--color-accent) 90%, var(--color-surface));
   background-color: color-mix(in oklab, var(--color-accent) 90%, var(--color-surface));
 }
+
+.navigation-root .navigation-cta.btn-accent,
+.navigation-overlay .navigation-mobile-cta.btn-accent {
+  color: var(--color-on-grass);
+  border-color: var(--color-grass);
+  background-color: var(--color-grass);
+}
+
+.navigation-root .navigation-cta.btn-accent:hover:not(:disabled),
+.navigation-overlay .navigation-mobile-cta.btn-accent:hover:not(:disabled) {
+  color: var(--color-on-grass);
+  border-color: var(--color-grass-hover);
+  background-color: var(--color-grass-hover);
+}
+
+.hero-section .hero-cta-group .btn-accent {
+  color: var(--color-on-grass);
+  border-color: var(--color-grass);
+  background-color: var(--color-grass);
+}
+
+.hero-section .hero-cta-group .btn-accent:hover:not(:disabled) {
+  color: var(--color-on-grass);
+  border-color: var(--color-grass-hover);
+  background-color: var(--color-grass-hover);
+}
+
+.hero-section .hero-cta-group .hero-btn-white.btn-outline {
+  color: var(--color-on-grass);
+  border-color: var(--color-grass);
+  background-color: var(--color-grass);
+}
+
+.hero-section .hero-cta-group .hero-btn-white.btn-outline:hover:not(:disabled) {
+  color: var(--color-on-grass);
+  border-color: var(--color-grass-hover);
+  background-color: var(--color-grass-hover);
+}
  
 .btn-outline:hover:not(:disabled) {
   color: var(--color-on-primary);
@@ -859,7 +900,7 @@
 }
  
 .navigation-brand-name {
-  color: var(--color-primary);
+  color: #000000;
   font-size: calc(var(--font-size-4xl) * 0.5);
   font-style: var(--font-style-heading);
   font-family: var(--font-family-heading);
@@ -2253,7 +2294,7 @@
 }
  
 .hero-container {
-  color: var(--color-surface);
+  color: #000000;
   z-index: 3;
   position: relative;
   max-width: 800px;
@@ -2261,7 +2302,7 @@
  
 .hero-scroll-indicator {
   left: 50%;
-  color: var(--color-surface);
+  color: rgba(0, 0, 0, 0.55);
   bottom: var(--spacing-xl);
   z-index: 3;
   position: absolute;
@@ -2284,6 +2325,19 @@
   top: 0;
   left: 0;
   z-index: 0;
+}
+
+.hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.38) 0%,
+    rgba(0, 0, 0, 0.52) 45%,
+    rgba(0, 0, 0, 0.64) 100%
+  );
 }
 
 .home-hero-title {
@@ -2778,6 +2832,10 @@
  
 .home-hero-title  .accent-text {
   color: var(--color-secondary);
+}
+
+.hero-section .home-hero-title .accent-text {
+  color: #000000;
 }
  
 .hero-btn-white:hover {
