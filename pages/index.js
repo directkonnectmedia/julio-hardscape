@@ -57,13 +57,6 @@ const Home = (props) => {
               decoding="async"
               aria-hidden="true"
             />
-            <div className="hero-logo-card">
-              <img
-                src="/julio-hardscape-logo.svg"
-                alt="Julio Hardscape logo"
-                className="home-thq-hero-logo-image-elm"
-              />
-            </div>
           </div>
           <div className="hero-container">
             <h1 className="home-hero-title hero-title">
@@ -557,11 +550,6 @@ to {transform: scaleX(1);}}@keyframes bounce {0%,20%,50%,80%,100% {transform: tr
             filter: none !important;
             transform: none !important;
           }
-          .home-thq-hero-logo-image-elm {
-            width: 140px;
-            height: auto;
-            display: block;
-          }
           .home-container2 {
             display: none;
           }
@@ -573,11 +561,6 @@ to {transform: scaleX(1);}}@keyframes bounce {0%,20%,50%,80%,100% {transform: tr
           }
           .home-container5 {
             display: contents;
-          }
-          @media (max-width: 767px) {
-            .home-thq-hero-logo-image-elm {
-              width: 100px;
-            }
           }
         `}
       </style>

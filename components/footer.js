@@ -13,11 +13,6 @@ const Footer = (props) => {
             <div className="footer-top">
               <div className="footer-brand-column">
                 <div className="footer-logo-wrapper">
-                  <img
-                    src="/julio-hardscape-logo.svg"
-                    alt="Julio Hardscape"
-                    className="footer-logo-img"
-                  />
                   <h2 className="footer-brand-name">
                     <span>Julio</span>
                     <br></br>
@@ -271,13 +266,6 @@ const Footer = (props) => {
             font-size: 0.75em;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-          }
-          .footer-logo-img {
-            height: 56px;
-            width: auto;
-            display: block;
-            object-fit: contain;
-            flex-shrink: 0;
           }
           .footer-container2 {
             display: none;
