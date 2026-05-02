@@ -68,6 +68,10 @@
   --dl-layout-size-xxlarge: 288px;
   --letter-spacing-heading: 0.06em;
   --text-transform-heading: none;
+  --navigation-bar-bg: #475569;
+  --navigation-bar-bg-scrolled: #3d4d63;
+  --navigation-bar-text: #ffffff;
+  --navigation-bar-border: rgba(255, 255, 255, 0.16);
   --dl-color-theme-primary1: #BF4408;
   --dl-color-theme-primary2: #E65103;
   --dl-layout-size-maxwidth: 1400px;
@@ -789,9 +793,10 @@
   width: 100%;
   z-index: 1000;
   position: sticky;
-  background: var(--color-surface);
-  transition: all 0.3s ease-in-out;
-  border-bottom: 1px solid color-mix(in srgb, var(--color-border) 30%, transparent);
+  background: var(--navigation-bar-bg);
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    padding-block 0.3s ease-in-out;
+  border-bottom: 1px solid var(--navigation-bar-border);
 }
  
 .navigation-container {
@@ -808,7 +813,7 @@
   display: none;
   z-index: 1100;
   position: fixed;
-  background: var(--color-surface);
+  background: var(--navigation-bar-bg);
   min-height: 100vh;
   overflow-y: auto;
   flex-direction: column;
@@ -827,7 +832,7 @@
 }
  
 .navigation-mobile-toggle {
-  color: var(--color-primary);
+  color: var(--navigation-bar-text);
   border: none;
   cursor: pointer;
   display: none;
@@ -841,9 +846,9 @@
   padding: var(--spacing-md) var(--spacing-xl);
   z-index: 1110;
   position: sticky;
-  background: var(--color-surface);
+  background: var(--navigation-bar-bg);
   align-items: center;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--navigation-bar-border);
   justify-content: space-between;
 }
  
@@ -876,7 +881,7 @@
 
  
 .navigation-mobile-close {
-  color: var(--color-primary);
+  color: var(--navigation-bar-text);
   border: none;
   cursor: pointer;
   background: none;
@@ -900,7 +905,7 @@
 }
  
 .navigation-brand-name {
-  color: #000000;
+  color: var(--navigation-bar-text);
   font-size: calc(var(--font-size-4xl) * 0.5);
   font-style: var(--font-style-heading);
   font-family: var(--font-family-heading);
@@ -919,7 +924,7 @@
 }
  
 .navigation-link {
-  color: var(--color-on-surface);
+  color: var(--navigation-bar-text);
   position: relative;
   font-size: var(--font-size-base);
   transition: color 0.2s ease;
@@ -931,7 +936,7 @@
 }
  
 .navigation-mobile-link {
-  color: var(--color-primary);
+  color: var(--navigation-bar-text);
   font-size: var(--font-size-3xl);
   transition: transform 0.3s ease, color 0.3s ease;
   font-family: var(--font-family-heading);
@@ -940,8 +945,8 @@
 }
  
 .navigation-root.scrolled {
-  background: color-mix(in srgb, var(--color-surface) 95%, black);
-  box-shadow: 0 4px 20px color-mix(in srgb, var(--color-on-surface) 5%, transparent);
+  background: var(--navigation-bar-bg-scrolled);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   padding-block: var(--spacing-xs);
 }
  

@@ -253,10 +253,10 @@ const Navigation = (props) => {
             display: contents;
           }
           .navigation-thq-navigation-brand-accent-elm1 {
-            color: #000000;
+            color: var(--navigation-bar-text);
           }
           .navigation-thq-navigation-brand-accent-elm2 {
-            color: #000000;
+            color: var(--navigation-bar-text);
           }
           .navigation-logo-wrapper {
             display: flex;
