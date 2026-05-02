@@ -860,10 +860,13 @@
  
 .navigation-brand-name {
   color: var(--color-primary);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-4xl);
+  font-style: var(--font-style-heading);
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
-  letter-spacing: 0.02em;
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-heading);
+  text-transform: var(--text-transform-heading);
 }
  
 .navigation-mobile-cta {
@@ -3110,7 +3113,7 @@
     padding-inline: var(--spacing-md);
   }
   .navigation-brand-name {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-3xl);
   }
   .footer-logo-wrapper {
     align-items: flex-start;
