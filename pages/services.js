@@ -25,12 +25,6 @@ const SERVICES = [
       'Professional palm trimming, health checks, removals when needed, and new installations chosen for Arizona\u2019s sun and soil. Clean canopy lines and safer, stronger trees.',
   },
   {
-    title: 'Framing',
-    image: '/photos/photo-32.jpg',
-    description:
-      'Structural framing for pergolas, patio covers, and custom outdoor builds. We focus on precise layout and solid connections so your shade structures and additions last.',
-  },
-  {
     title: 'Pergola & Gazebo Installation',
     image: '/photos/photo-52.jpg',
     description:
@@ -52,7 +46,7 @@ export default function ServicesPage() {
         <meta property="og:title" content="Services — Julio Hardscape" />
         <meta
           name="description"
-          content="Pavers, artificial turf, palm care, framing, custom pergolas and gazebos, and yard cleaning across the Arizona West Valley."
+          content="Pavers, artificial turf, palm care, custom pergolas and gazebos, and yard cleaning across the Arizona West Valley."
         />
       </Head>
       <div className="sv-page">

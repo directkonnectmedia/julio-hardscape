@@ -143,28 +143,19 @@ const Home = (props) => {
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
-                <div className="services-slide" data-slide="3" style={{ backgroundImage: "url(/photos/photo-32.jpg)" }}>
+                <div className="services-slide" data-slide="3" style={{ backgroundImage: "url(/photos/photo-52.jpg)" }}>
                   <div className="services-slide__overlay"></div>
                   <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">04 / Solid Structure</span>
-                    <h3 className="services-slide__title">Framing</h3>
-                    <p className="services-slide__desc">Structural framing for pergolas, patio covers, and outdoor features — plumb, square, and built to handle the elements.</p>
-                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
-                  </div>
-                </div>
-                <div className="services-slide" data-slide="4" style={{ backgroundImage: "url(/photos/photo-52.jpg)" }}>
-                  <div className="services-slide__overlay"></div>
-                  <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">05 / Shade &amp; Shelter</span>
+                    <span className="services-slide__eyebrow">04 / Shade &amp; Shelter</span>
                     <h3 className="services-slide__title">Pergola &amp; Gazebo Installation</h3>
                     <p className="services-slide__desc">We install pergolas and gazebos and fabricate custom structures to match your space, style, and how you live outside.</p>
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
-                <div className="services-slide" data-slide="5" style={{ backgroundImage: "url(/photos/yard-cleanups/service-card.jpg)" }}>
+                <div className="services-slide" data-slide="4" style={{ backgroundImage: "url(/photos/yard-cleanups/service-card.jpg)" }}>
                   <div className="services-slide__overlay"></div>
                   <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">06 / Curb Appeal</span>
+                    <span className="services-slide__eyebrow">05 / Curb Appeal</span>
                     <h3 className="services-slide__title">Yard Cleaning Services</h3>
                     <p className="services-slide__desc">Debris removal, bed cleanups, and seasonal refreshes — a neat, welcoming yard without spending your weekends on it.</p>
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
@@ -180,7 +171,6 @@ const Home = (props) => {
                 <button data-dot="2" className="services-carousel__dot" aria-label="Go to service 3"></button>
                 <button data-dot="3" className="services-carousel__dot" aria-label="Go to service 4"></button>
                 <button data-dot="4" className="services-carousel__dot" aria-label="Go to service 5"></button>
-                <button data-dot="5" className="services-carousel__dot" aria-label="Go to service 6"></button>
               </div>
               <div className="services-carousel__progress"><div id="servicesProgress" className="services-carousel__progress-bar"></div></div>
             </div>
