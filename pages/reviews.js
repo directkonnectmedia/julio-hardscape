@@ -11,50 +11,50 @@ const REVIEWS = [
     initials: 'MR',
     name: 'Maria R.',
     city: 'Tolleson, AZ',
-    service: 'Paver Patio & Fire Pit',
-    text: 'They completely transformed our backyard into a desert oasis. The paver patio and fire pit area are absolutely stunning. Professional crew, on time, and the quality is unmatched.',
+    service: 'Paver Patio',
+    text: 'They completely transformed our backyard into a desert oasis. The paver patio is absolutely stunning — crisp borders, perfect drainage, and it still looks brand new.',
   },
   {
     initials: 'JT',
     name: 'James T.',
     city: 'Avondale, AZ',
-    service: 'Artificial Turf & Xeriscape',
-    text: 'Best landscaping company in the West Valley, hands down. They installed artificial turf and a full xeriscaping design. Our water bill dropped and the yard looks incredible year-round.',
+    service: 'Artificial Turf',
+    text: 'Julio Hardscape installed artificial turf across our entire side yard. Our water bill dropped and the lawn looks incredible year-round.',
   },
   {
     initials: 'SL',
     name: 'Sarah L.',
     city: 'Goodyear, AZ',
-    service: 'Pool Deck Remodel',
-    text: 'From the first consultation to the final walkthrough, Done Right lived up to their name. Our pool deck remodel exceeded every expectation. Highly recommend to anyone in the area.',
+    service: 'Paver Walkway',
+    text: 'From the first consultation to the final walkthrough, Julio Hardscape exceeded every expectation on our new paver walkway and courtyard.',
   },
   {
     initials: 'DM',
     name: 'Daniel M.',
     city: 'Buckeye, AZ',
-    service: 'Retaining Walls & Irrigation',
-    text: 'They built beautiful retaining walls and upgraded our irrigation in about a week. Clean jobsite every day, great communication, and the finished work looks like a magazine cover. Worth every dollar.',
+    service: 'Pavers & Turf',
+    text: 'We combined a new paver driveway with turf for the dog run. Clean jobsite every day, great communication, and the finished work looks like a magazine cover.',
   },
   {
     initials: 'PK',
     name: 'Priya K.',
     city: 'Litchfield Park, AZ',
-    service: 'Full Backyard Remodel',
-    text: 'We did a full backyard remodel — pavers, turf, lighting, the works. The team handled everything with our HOA and kept us updated daily. Worth every penny.',
+    service: 'Pavers & Turf',
+    text: 'We refreshed our backyard with premium pavers leading out to UV-stable turf — the team handled everything with our HOA and kept us updated daily.',
   },
   {
     initials: 'RF',
     name: 'Robert F.',
     city: 'Phoenix, AZ',
-    service: 'Landscape Lighting',
-    text: 'Low-voltage landscape lighting transformed our curb appeal after dark. They picked the right fixtures, ran everything cleanly, and the result is genuinely breathtaking at night.',
+    service: 'Artificial Turf',
+    text: 'The artificial turf install transformed how we use our yard — no mud, no bare patches, and it drains perfectly after monsoon rains.',
   },
   {
     initials: 'AB',
     name: 'Amanda B.',
     city: 'Peoria, AZ',
     service: 'Pet-Friendly Turf',
-    text: 'Installed pet-friendly artificial turf for our two dogs. No more dust bowl, no more brown spots, and the kids love it too. Incredibly happy with the whole experience and will be calling again for our front yard.',
+    text: 'Installed pet-friendly artificial turf for our two dogs. No more dust bowl, no more brown spots, and the kids love it too.',
   },
   {
     initials: 'CE',
@@ -67,8 +67,8 @@ const REVIEWS = [
     initials: 'LH',
     name: 'Lisa H.',
     city: 'Surprise, AZ',
-    service: 'Fire Pit & Outdoor Kitchen',
-    text: 'We host a lot, and our new outdoor kitchen and fire pit are now the centerpiece of every gathering. Solid construction, beautiful stone work, and fast turnaround.',
+    service: 'Pavers & Turf',
+    text: 'We replaced cracked concrete with a beautiful paver courtyard and synthetic turf for the kids. Solid base work, clean lines, and fast turnaround.',
   },
 ]
 
@@ -91,11 +91,11 @@ export default function ReviewsPage() {
   return (
     <>
       <Head>
-        <title>Reviews — Done Right Landscape LLC</title>
-        <meta property="og:title" content="Reviews — Done Right Landscape LLC" />
+        <title>Reviews — Julio Hardscape</title>
+        <meta property="og:title" content="Reviews — Julio Hardscape" />
         <meta
           name="description"
-          content="See what West Valley homeowners are saying about Done Right Landscape LLC."
+          content="See what West Valley homeowners are saying about Julio Hardscape."
         />
       </Head>
       <div className="rv-page">
@@ -195,7 +195,7 @@ export default function ReviewsPage() {
             </p>
             <div className="rv-cta-actions">
               <Link href="/#booking"><a className="rv-cta-btn rv-cta-btn-primary">Book a Free Estimate</a></Link>
-              <a href="tel:6235521310" className="rv-cta-btn rv-cta-btn-outline">Call (623) 552-1310</a>
+              <a href="tel:6024103112" className="rv-cta-btn rv-cta-btn-outline">Call (602) 410-3112</a>
             </div>
           </div>
         </section>

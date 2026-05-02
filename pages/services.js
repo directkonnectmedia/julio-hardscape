@@ -18,53 +18,17 @@ const SERVICES = [
     description:
       'Lush, green, year-round lawns with zero water waste. Pet-friendly, UV-stable turf with proper drainage and shock pads \u2014 perfect for families and Arizona\u2019s toughest climate.',
   },
-  {
-    title: 'Pool Deck Remodeling',
-    image: '/photos/photo-57.jpg',
-    description:
-      'Resort-style pool decks with cool-touch finishes, travertine pavers, and slip-resistant surfaces. Designed to stay cool under bare feet and look beautiful year after year.',
-  },
-  {
-    title: 'Retaining Walls',
-    image: '/photos/photo-32.jpg',
-    description:
-      'Engineered block and stone retaining walls, seat walls, and decorative garden walls that add dimension, structure, and value to your property.',
-  },
-  {
-    title: 'Irrigation Systems',
-    image: '/photos/service-irrigation.png',
-    description:
-      'Smart, water-wise drip irrigation \u2014 installed, upgraded, and repaired. Wi-Fi controllers and rain sensors keep your landscape thriving while slashing your water bill.',
-  },
-  {
-    title: 'Fire Pits & Kitchens',
-    image: '/photos/photo-52.jpg',
-    description:
-      'Custom-built fire features and full outdoor kitchens for unforgettable evenings under the Arizona sky. Gas or wood-burning, with built-in grills, cooktops, and stone finishes.',
-  },
-  {
-    title: 'Tree & Plant Installation',
-    image: '/photos/service-plants.png',
-    description:
-      'Expert selection and planting of desert-adapted trees, shrubs, and flowering plants that actually thrive in the Valley heat \u2014 including tall privacy hedges and columnar screening plants for backyard seclusion. Proper soil amendment and staking included on every install.',
-  },
-  {
-    title: 'Landscape Lighting',
-    image: '/photos/photo-14.jpg',
-    description:
-      'Low-voltage LED lighting that highlights your landscape and transforms curb appeal at night. Path, uplight, and wash fixtures placed by pros for a breathtaking evening glow.',
-  },
 ]
 
 export default function ServicesPage() {
   return (
     <>
       <Head>
-        <title>Services — Done Right Landscaping</title>
-        <meta property="og:title" content="Services — Done Right Landscaping" />
+        <title>Services — Julio Hardscape</title>
+        <meta property="og:title" content="Services — Julio Hardscape" />
         <meta
           name="description"
-          content="Premium landscaping services across the Arizona West Valley: pavers, xeriscaping, turf, pool decks, fire features, lighting, and more."
+          content="Premium paver installation and artificial turf across the Arizona West Valley."
         />
       </Head>
       <div className="sv-page">
@@ -73,7 +37,7 @@ export default function ServicesPage() {
         <section className="sv-section">
           <div className="sv-container">
             <header className="sv-header">
-              <p className="sv-eyebrow">WHY DONE RIGHT LANDSCAPING?</p>
+              <p className="sv-eyebrow">WHY JULIO HARDSCAPE?</p>
               <h1 className="sv-heading">Premium Outdoor Craftsmanship</h1>
             </header>
 
@@ -88,7 +52,7 @@ export default function ServicesPage() {
                       </div>
                     </div>
                     <div className="sv-card-text">
-                      <p className="sv-card-eyebrow">WHY DONE RIGHT LANDSCAPING?</p>
+                      <p className="sv-card-eyebrow">WHY JULIO HARDSCAPE?</p>
                       <h2 className="sv-card-heading">{s.title}</h2>
                       <p className="sv-card-body">{s.description}</p>
                       <Link href="/#booking">
@@ -110,7 +74,7 @@ export default function ServicesPage() {
             </p>
             <div className="sv-bottom-cta-actions">
               <Link href="/#booking"><a className="sv-bottom-cta-btn sv-bottom-cta-btn-primary">Book a Free Estimate</a></Link>
-              <a href="tel:6235521310" className="sv-bottom-cta-btn sv-bottom-cta-btn-outline">Call (623) 552-1310</a>
+              <a href="tel:6024103112" className="sv-bottom-cta-btn sv-bottom-cta-btn-outline">Call (602) 410-3112</a>
             </div>
           </div>
         </section>

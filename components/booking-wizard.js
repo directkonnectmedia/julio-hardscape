@@ -5,14 +5,6 @@ import { GOOGLE_FORM } from '../lib/google-form-config'
 const SERVICES = [
   { value: 'pavers', label: 'Paver Installation', desc: 'Driveways, patios, walkways' },
   { value: 'turf', label: 'Artificial Turf', desc: 'Year-round green lawns' },
-  { value: 'pool-deck', label: 'Pool Deck Remodeling', desc: 'Travertine, cool-deck, pavers' },
-  { value: 'walls', label: 'Retaining Walls', desc: 'Block, seat & structural walls' },
-  { value: 'irrigation', label: 'Irrigation Systems', desc: 'Smart drip & repairs' },
-  { value: 'fire-kitchen', label: 'Fire Pits & Kitchens', desc: 'Outdoor living features' },
-  { value: 'plants', label: 'Tree & Plant Install', desc: 'Desert-adapted species' },
-  { value: 'lighting', label: 'Landscape Lighting', desc: 'Low-voltage LED design' },
-  { value: 'full-remodel', label: 'Full Backyard Remodel', desc: 'Complete transformation' },
-  { value: 'other', label: 'Something Else', desc: 'Tell us what you need' },
 ]
 
 const STEPS = ['Service', 'Project', 'Contact', 'Review']
@@ -262,7 +254,7 @@ export default function BookingWizard() {
                     <div className="bw-row">
                       <div className="bw-field">
                         <label htmlFor="bw-phone">Phone</label>
-                        <input id="bw-phone" type="tel" inputMode="numeric" autoComplete="tel" placeholder="(623) 555-0100" value={data.phone} onChange={update('phone')} required />
+                        <input id="bw-phone" type="tel" inputMode="numeric" autoComplete="tel" placeholder="(602) 410-3112" value={data.phone} onChange={update('phone')} required />
                       </div>
                       <div className="bw-field">
                         <label htmlFor="bw-email">Email <span className="bw-optional">(optional)</span></label>

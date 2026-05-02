@@ -14,22 +14,22 @@ const Footer = (props) => {
               <div className="footer-brand-column">
                 <div className="footer-logo-wrapper">
                   <img
-                    src="/done-right-logo.png"
-                    alt="Done Right Landscape LLC"
+                    src="/julio-hardscape-logo.svg"
+                    alt="Julio Hardscape"
                     className="footer-logo-img"
                   />
                   <h2 className="footer-brand-name">
-                    <span>Done Right</span>
+                    <span>Julio</span>
                     <br></br>
                     <span className="footer-thq-footer-brand-accent-elm">
-                      Landscape LLC
+                      Hardscape
                     </span>
                   </h2>
                 </div>
                 <p className="footer-description section-content">
-                  Elevating outdoor living across Arizona&apos;s West Valley
-                  with premium pavers, luxury xeriscaping, and custom desert
-                  retreats built to last a lifetime.
+                  Elevating outdoor living across Arizona&apos;s West Valley with
+                  premium paver installation and artificial turf built for the
+                  desert climate.
                 </p>
                 <div className="footer-social-links">
                   <a href="#">
@@ -149,9 +149,9 @@ const Footer = (props) => {
                         ></path>
                       </svg>
                     </div>
-                    <a href="tel:6235521310">
+                    <a href="tel:6024103112">
                       <div className="footer-contact-link">
-                        <span>(623) 552-1310</span>
+                        <span>(602) 410-3112</span>
                       </div>
                     </a>
                   </li>
@@ -209,8 +209,7 @@ const Footer = (props) => {
             <div className="footer-divider"></div>
             <div className="footer-bottom">
               <p className="footer-copyright">
-                &amp;copy; 2026 Done Right Landscaping LLC • Tolleson, AZ • All
-                Rights Reserved
+                © 2026 Julio Hardscape • Tolleson, AZ • All Rights Reserved
               </p>
               <div className="footer-legal-links">
                 <a href="#">

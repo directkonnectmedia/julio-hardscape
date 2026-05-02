@@ -13,18 +13,18 @@ const ContactBooking = (props) => {
     <>
       <div className="contact-booking-container1">
         <Head>
-          <title>Contact & Booking — Done Right Landscaping</title>
+          <title>Contact & Booking — Julio Hardscape</title>
           <meta
             property="og:title"
-            content="Contact & Booking — Done Right Landscaping"
+            content="Contact & Booking — Julio Hardscape"
           />
           <link
             rel="canonical"
-            href="https://substantial-golden-peafowl-ly89h7.teleporthq.site/contact-booking"
+            href="https://julio-hardscape.vercel.app/contact-booking"
           />
           <meta
             property="og:url"
-            content="https://substantial-golden-peafowl-ly89h7.teleporthq.site/contact-booking"
+            content="https://julio-hardscape.vercel.app/contact-booking"
           />
         </Head>
         <Navigation></Navigation>
@@ -81,9 +81,9 @@ const ContactBooking = (props) => {
                     <span>Book a Free Estimate</span>
                   </div>
                 </a>
-                <a href="tel:6235521310">
+                <a href="tel:6024103112">
                   <div className="btn btn-lg btn-outline">
-                    <span>Call (623) 552-1310</span>
+                    <span>Call (602) 410-3112</span>
                   </div>
                 </a>
               </div>
@@ -138,9 +138,9 @@ const ContactBooking = (props) => {
                     </div>
                     <div className="booking-info__text">
                       <span className="booking-info__label">Phone</span>
-                      <a href="tel:6235521310">
+                      <a href="tel:6024103112">
                         <div className="booking-info__link">
-                          <span>(623) 552-1310</span>
+                          <span>(602) 410-3112</span>
                         </div>
                       </a>
                     </div>
@@ -328,9 +328,9 @@ const ContactBooking = (props) => {
                 living space.
               </p>
               <div className="cta-banner__actions">
-                <a href="tel:6235521310">
+                <a href="tel:6024103112">
                   <div className="btn-surface btn btn-lg">
-                    <span>Call (623) 552-1310</span>
+                    <span>Call (602) 410-3112</span>
                   </div>
                 </a>
                 <a href="#booking-form">
@@ -349,7 +349,7 @@ const ContactBooking = (props) => {
               <h2 className="section-title">Our Services</h2>
               <div className="services-glance__line"></div>
             </div>
-            <div className="services-glance__grid">
+            <div className="services-glance__grid services-glance__grid--two">
               <div className="service-mini-card">
                 <div className="service-mini-card__icon">
                   <svg
@@ -382,160 +382,11 @@ const ContactBooking = (props) => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg>
-                </div>
-                <h4 className="service-mini-card__title">Xeriscaping</h4>
-              </div>
-              <div className="service-mini-card">
-                <div className="service-mini-card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewbox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
                     <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8c0 5.5-4.78 10-10 10"></path>
                     <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
                   </svg>
                 </div>
                 <h4 className="service-mini-card__title">Artificial Turf</h4>
-              </div>
-              <div className="service-mini-card">
-                <div className="service-mini-card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewbox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M2 12h20"></path>
-                    <path d="M12 2v20"></path>
-                    <path d="m4.93 4.93 14.14 14.14"></path>
-                    <path d="m4.93 19.07 14.14-14.14"></path>
-                  </svg>
-                </div>
-                <h4 className="service-mini-card__title">
-                  Pool Deck Remodeling
-                </h4>
-              </div>
-              <div className="service-mini-card">
-                <div className="service-mini-card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewbox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M3 21h18"></path>
-                    <path d="M3 17h18"></path>
-                    <path d="M3 13h18"></path>
-                    <path d="M3 9h18"></path>
-                    <path d="M3 5h18"></path>
-                  </svg>
-                </div>
-                <h4 className="service-mini-card__title">Retaining Walls</h4>
-              </div>
-              <div className="service-mini-card">
-                <div className="service-mini-card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewbox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5s-3 3.5-3 5.5a7 7 0 0 0 7 7z"></path>
-                  </svg>
-                </div>
-                <h4 className="service-mini-card__title">Irrigation Systems</h4>
-              </div>
-              <div className="service-mini-card">
-                <div className="service-mini-card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewbox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M8 2v3"></path>
-                    <path d="M16 2v3"></path>
-                    <path d="M4 19c0 1.7 1.3 3 3 3h10c1.7 0 3-1.3 3-3v-5H4v5Z"></path>
-                    <path d="M4 14V9c0-1.7 1.3-3 3-3h10c1.7 0 3 1.3 3 3v5H4Z"></path>
-                    <path d="M12 11v3"></path>
-                  </svg>
-                </div>
-                <h4 className="service-mini-card__title">
-                  Fire Pits &amp; Kitchens
-                </h4>
-              </div>
-              <div className="service-mini-card">
-                <div className="service-mini-card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewbox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M12 20v-8"></path>
-                    <path d="M12 12l-4-4"></path>
-                    <path d="M12 12l4-4"></path>
-                    <path d="M12 20l4-4"></path>
-                    <path d="M12 20l-4-4"></path>
-                    <path d="M12 4v4"></path>
-                  </svg>
-                </div>
-                <h4 className="service-mini-card__title">
-                  Tree &amp; Plant Installation
-                </h4>
-              </div>
-              <div className="service-mini-card">
-                <div className="service-mini-card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewbox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M15 14c.2-1 .7-1.7 1.5-2.5c1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5c.7.7 1.3 1.5 1.5 2.5m0 4h6m-5 4h4"></path>
-                  </svg>
-                </div>
-                <h4 className="service-mini-card__title">Landscape Lighting</h4>
               </div>
             </div>
           </div>

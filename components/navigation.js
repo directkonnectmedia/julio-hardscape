@@ -13,19 +13,19 @@ const Navigation = (props) => {
             <Link href="/">
               <a>
                 <div
-                  aria-label="Done Right Landscape LLC Home"
+                  aria-label="Julio Hardscape Home"
                   className="navigation-logo-wrapper"
                 >
                   <img
-                    src="/done-right-logo.png"
-                    alt="Done Right Landscape LLC"
+                    src="/julio-hardscape-logo.svg"
+                    alt="Julio Hardscape"
                     className="navigation-logo-img"
                   />
                   <div className="navigation-logo-content">
                     <span className="navigation-brand-name">
-                      <span>Done Right </span>
+                      <span>Julio </span>
                       <span className="navigation-thq-navigation-brand-accent-elm1">
-                        Landscape LLC
+                        Hardscape
                       </span>
                     </span>
                   </div>
@@ -71,7 +71,7 @@ const Navigation = (props) => {
                   </Link>
                 </li>
               </ul>
-              <a href="tel:6235521310">
+              <a href="tel:6024103112">
                 <div className="navigation-cta btn btn-accent btn-sm">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -126,14 +126,14 @@ const Navigation = (props) => {
                 <a>
                   <div className="navigation-logo-wrapper">
                     <img
-                      src="/done-right-logo.png"
-                      alt="Done Right Landscape LLC"
+                      src="/julio-hardscape-logo.svg"
+                      alt="Julio Hardscape"
                       className="navigation-logo-img"
                     />
                     <span className="navigation-brand-name">
-                      <span>Done Right </span>
+                      <span>Julio </span>
                       <span className="navigation-thq-navigation-brand-accent-elm2">
-                        Landscape LLC
+                        Hardscape
                       </span>
                     </span>
                   </div>
@@ -199,9 +199,9 @@ const Navigation = (props) => {
                 </li>
               </ul>
               <div className="navigation-mobile-footer">
-                <a href="tel:6235521310">
+                <a href="tel:6024103112">
                   <div className="navigation-mobile-cta btn btn-accent btn-lg">
-                    <span>Call (623) 552-1310</span>
+                    <span>Call (602) 410-3112</span>
                   </div>
                 </a>
               </div>

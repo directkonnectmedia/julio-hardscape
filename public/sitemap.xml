@@ -2,20 +2,32 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://substantial-golden-peafowl-ly89h7.teleporthq.site/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <loc>https://julio-hardscape.vercel.app/</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://substantial-golden-peafowl-ly89h7.teleporthq.site/project-gallery</loc>
-    <lastmod>2026-04-20</lastmod>
+    <loc>https://julio-hardscape.vercel.app/services</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://julio-hardscape.vercel.app/project-gallery</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://substantial-golden-peafowl-ly89h7.teleporthq.site/contact-booking</loc>
-    <lastmod>2026-04-20</lastmod>
+    <loc>https://julio-hardscape.vercel.app/reviews</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://julio-hardscape.vercel.app/contact-booking</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -36,15 +36,15 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>Done Right Landscaping</title>
-          <meta property="og:title" content="Done Right Landscaping" />
+          <title>Julio Hardscape</title>
+          <meta property="og:title" content="Julio Hardscape" />
           <link
             rel="canonical"
-            href="https://substantial-golden-peafowl-ly89h7.teleporthq.site/"
+            href="https://julio-hardscape.vercel.app/"
           />
           <meta
             property="og:url"
-            content="https://substantial-golden-peafowl-ly89h7.teleporthq.site/"
+            content="https://julio-hardscape.vercel.app/"
           />
         </Head>
         <Navigation></Navigation>
@@ -62,8 +62,8 @@ const Home = (props) => {
             />
             <div className="hero-logo-card">
               <img
-                src="/done-right-landscaping-logo-200h.jpg"
-                alt="Done Right Landscaping LLC Logo"
+                src="/julio-hardscape-logo.svg"
+                alt="Julio Hardscape logo"
                 className="home-thq-hero-logo-image-elm"
               />
             </div>
@@ -71,8 +71,8 @@ const Home = (props) => {
           </div>
           <div className="hero-container">
             <h1 className="home-hero-title hero-title">
-              <span>Done Right </span>
-              <span className="accent-text">Landscape LLC</span>
+              <span>Julio </span>
+              <span className="accent-text">Hardscape</span>
             </h1>
             <div className="hero-divider"></div>
             <p className="hero-tagline">
@@ -84,9 +84,9 @@ const Home = (props) => {
                   <span>Book a Free Estimate</span>
                 </div>
               </a>
-              <a href="tel:6235521310">
+              <a href="tel:6024103112">
                 <div className="hero-btn-white btn btn-lg btn-outline">
-                  <span>Call (623) 552-1310</span>
+                  <span>Call (602) 410-3112</span>
                 </div>
               </a>
             </div>
@@ -134,60 +134,6 @@ const Home = (props) => {
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
-                <div className="services-slide" data-slide="2" style={{ backgroundImage: "url(/photos/photo-57.jpg)" }}>
-                  <div className="services-slide__overlay"></div>
-                  <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">03 / Resort-Style Decks</span>
-                    <h3 className="services-slide__title">Pool Deck Remodeling</h3>
-                    <p className="services-slide__desc">Cool-deck finishes, travertine pavers, and slip-resistant surfaces designed for the desert sun.</p>
-                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
-                  </div>
-                </div>
-                <div className="services-slide" data-slide="3" style={{ backgroundImage: "url(/photos/photo-32.jpg)" }}>
-                  <div className="services-slide__overlay"></div>
-                  <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">04 / Structural Beauty</span>
-                    <h3 className="services-slide__title">Retaining Walls</h3>
-                    <p className="services-slide__desc">Functional and decorative block walls, seat walls, and retaining structures that add dimension and value to your property.</p>
-                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
-                  </div>
-                </div>
-                <div className="services-slide" data-slide="4" style={{ backgroundImage: "url(/photos/service-irrigation.png)" }}>
-                  <div className="services-slide__overlay"></div>
-                  <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">05 / Smart Watering</span>
-                    <h3 className="services-slide__title">Irrigation Systems</h3>
-                    <p className="services-slide__desc">Smart drip irrigation installation and repair to keep your landscape thriving while conserving water in the Sonoran Desert.</p>
-                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
-                  </div>
-                </div>
-                <div className="services-slide" data-slide="5" style={{ backgroundImage: "url(/photos/photo-52.jpg)" }}>
-                  <div className="services-slide__overlay"></div>
-                  <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">06 / Outdoor Living</span>
-                    <h3 className="services-slide__title">Fire Pits &amp; Kitchens</h3>
-                    <p className="services-slide__desc">Custom-built fire features and outdoor cooking areas for unforgettable evenings under the Arizona sky.</p>
-                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
-                  </div>
-                </div>
-                <div className="services-slide" data-slide="6" style={{ backgroundImage: "url(/photos/service-plants.png)" }}>
-                  <div className="services-slide__overlay"></div>
-                  <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">07 / Living Color</span>
-                    <h3 className="services-slide__title">Tree &amp; Plant Installation</h3>
-                    <p className="services-slide__desc">Expert selection and planting of desert-adapted trees, shrubs, and flowering plants that thrive in the Valley heat.</p>
-                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
-                  </div>
-                </div>
-                <div className="services-slide" data-slide="7" style={{ backgroundImage: "url(/photos/photo-14.jpg)" }}>
-                  <div className="services-slide__overlay"></div>
-                  <div className="services-slide__content">
-                    <span className="services-slide__eyebrow">08 / Evening Ambiance</span>
-                    <h3 className="services-slide__title">Landscape Lighting</h3>
-                    <p className="services-slide__desc">Low-voltage LED lighting design that highlights your landscape, improves safety, and creates stunning curb appeal at night.</p>
-                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
-                  </div>
-                </div>
               </div>
               <button id="servicesNext" aria-label="Next service" className="services-carousel__nav services-carousel__nav--next">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
@@ -195,12 +141,6 @@ const Home = (props) => {
               <div id="servicesDots" className="services-carousel__dots">
                 <button data-dot="0" className="services-carousel__dot is-active" aria-label="Go to service 1"></button>
                 <button data-dot="1" className="services-carousel__dot" aria-label="Go to service 2"></button>
-                <button data-dot="2" className="services-carousel__dot" aria-label="Go to service 3"></button>
-                <button data-dot="3" className="services-carousel__dot" aria-label="Go to service 4"></button>
-                <button data-dot="4" className="services-carousel__dot" aria-label="Go to service 5"></button>
-                <button data-dot="5" className="services-carousel__dot" aria-label="Go to service 6"></button>
-                <button data-dot="6" className="services-carousel__dot" aria-label="Go to service 7"></button>
-                <button data-dot="7" className="services-carousel__dot" aria-label="Go to service 8"></button>
               </div>
               <div className="services-carousel__progress"><div id="servicesProgress" className="services-carousel__progress-bar"></div></div>
             </div>
@@ -228,7 +168,7 @@ const Home = (props) => {
               viewport={{ once: true, amount: 0.25 }}
             >
               <motion.span variants={fadeUp} className="home-section-label">
-                THE DONE RIGHT DIFFERENCE
+                THE JULIO HARDSCAPE DIFFERENCE
               </motion.span>
               <motion.h2 variants={fadeUp} className="home-section-title section-title">
                 Luxury Craftsmanship for the Desert Lifestyle
@@ -262,7 +202,7 @@ const Home = (props) => {
                   <div className="trust-text">
                     <h4 className="trust-title">Quality Materials</h4>
                     <p className="section-content">
-                      We source only premium-grade pavers, turf, and plants
+                      We source only premium-grade pavers and turf systems
                       selected for desert longevity.
                     </p>
                   </div>
@@ -350,7 +290,7 @@ const Home = (props) => {
                   West Valley.
                 </p>
                 <div className="contact-methods">
-                  <a href="tel:6235521310">
+                  <a href="tel:6024103112">
                     <div className="contact-item">
                       <div className="contact-icon">
                         <svg
@@ -367,7 +307,7 @@ const Home = (props) => {
                           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                         </svg>
                       </div>
-                      <span>(623) 552-1310</span>
+                      <span>(602) 410-3112</span>
                     </div>
                   </a>
                   <div className="contact-item">
@@ -424,7 +364,7 @@ const Home = (props) => {
               </h2>
               <p className="cta-text section-content">
                 Join hundreds of satisfied West Valley homeowners who trusted
-                Done Right Landscaping LLC for their premium outdoor living
+                Julio Hardscape for their premium outdoor living
                 transformations.
               </p>
               <div className="cta-divider"></div>
@@ -434,9 +374,9 @@ const Home = (props) => {
                     <span>Request Your Free Estimate</span>
                   </div>
                 </a>
-                <a href="tel:6235521310">
+                <a href="tel:6024103112">
                   <div className="btn btn-outline btn-xl">
-                    <span>Call (623) 552-1310</span>
+                    <span>Call (602) 410-3112</span>
                   </div>
                 </a>
               </div>
@@ -459,7 +399,7 @@ to {transform: scaleX(1);}}@keyframes bounce {0%,20%,50%,80%,100% {transform: tr
         <div className="home-container4">
           <div className="home-container5">
             <Script
-              html={`<script defer data-name="done-right-landscaping">
+              html={`<script defer data-name="julio-hardscape-site">
 (function(){
   // Services Carousel
   const sCarousel = document.getElementById("servicesCarousel")

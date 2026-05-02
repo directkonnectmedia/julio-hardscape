@@ -2059,6 +2059,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.services-glance__grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
  
 .services-glance__line {
   width: 80px;
