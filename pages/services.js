@@ -26,7 +26,7 @@ const SERVICES = [
   },
   {
     title: 'Pergola & Gazebo Installation',
-    image: '/photos/photo-52.jpg',
+    image: '/photos/pergola-gazebo/pergola.avif',
     description:
       'We install pergolas and gazebos and fabricate custom designs to match your patio, pool deck, or backyard. From standard kits to fully custom sizes, materials, and finishes.',
   },

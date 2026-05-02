@@ -143,7 +143,7 @@ const Home = (props) => {
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
-                <div className="services-slide" data-slide="3" style={{ backgroundImage: "url(/photos/photo-52.jpg)" }}>
+                <div className="services-slide" data-slide="3" style={{ backgroundImage: "url(/photos/pergola-gazebo/pergola.avif)" }}>
                   <div className="services-slide__overlay"></div>
                   <div className="services-slide__content">
                     <span className="services-slide__eyebrow">04 / Shade &amp; Shelter</span>
