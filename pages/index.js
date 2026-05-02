@@ -134,7 +134,7 @@ const Home = (props) => {
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
-                <div className="services-slide" data-slide="2" style={{ backgroundImage: "url(/photos/palm-tree-trimming/service-card.jpg)" }}>
+                <div className="services-slide" data-slide="2" style={{ backgroundImage: "url(/photos/palm-tree-trimming/palm-tree-trimming.avif)" }}>
                   <div className="services-slide__overlay"></div>
                   <div className="services-slide__content">
                     <span className="services-slide__eyebrow">03 / Desert Palms</span>

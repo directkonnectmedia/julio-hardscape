@@ -20,7 +20,7 @@ const SERVICES = [
   },
   {
     title: 'Palm Tree Services',
-    image: '/photos/palm-tree-trimming/service-card.jpg',
+    image: '/photos/palm-tree-trimming/palm-tree-trimming.avif',
     description:
       'Professional palm trimming, health checks, removals when needed, and new installations chosen for Arizona\u2019s sun and soil. Clean canopy lines and safer, stronger trees.',
   },
