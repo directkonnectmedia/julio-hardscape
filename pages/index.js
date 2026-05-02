@@ -57,7 +57,6 @@ const Home = (props) => {
               decoding="async"
               aria-hidden="true"
             />
-            <div className="hero-bg-overlay" aria-hidden="true"></div>
           </div>
           <div className="hero-container">
             <h1 className="home-hero-title hero-title">
