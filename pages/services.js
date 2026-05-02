@@ -20,7 +20,7 @@ const SERVICES = [
   },
   {
     title: 'Palm Tree Services',
-    image: '/photos/stock-trees-plants.jpg',
+    image: '/photos/palm-tree-trimming/service-card.jpg',
     description:
       'Professional palm trimming, health checks, removals when needed, and new installations chosen for Arizona\u2019s sun and soil. Clean canopy lines and safer, stronger trees.',
   },
@@ -38,7 +38,7 @@ const SERVICES = [
   },
   {
     title: 'Yard Cleaning Services',
-    image: '/photos/photo-08.jpg',
+    image: '/photos/yard-cleanups/service-card.jpg',
     description:
       'Seasonal cleanups, debris and green-waste haul-off, bed edging, and tidy-ups after storms or projects \u2014 a polished yard without spending your weekends on it.',
   },

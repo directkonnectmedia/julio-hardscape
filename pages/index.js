@@ -134,7 +134,7 @@ const Home = (props) => {
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
-                <div className="services-slide" data-slide="2" style={{ backgroundImage: "url(/photos/stock-trees-plants.jpg)" }}>
+                <div className="services-slide" data-slide="2" style={{ backgroundImage: "url(/photos/palm-tree-trimming/service-card.jpg)" }}>
                   <div className="services-slide__overlay"></div>
                   <div className="services-slide__content">
                     <span className="services-slide__eyebrow">03 / Desert Palms</span>
@@ -161,7 +161,7 @@ const Home = (props) => {
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
-                <div className="services-slide" data-slide="5" style={{ backgroundImage: "url(/photos/photo-08.jpg)" }}>
+                <div className="services-slide" data-slide="5" style={{ backgroundImage: "url(/photos/yard-cleanups/service-card.jpg)" }}>
                   <div className="services-slide__overlay"></div>
                   <div className="services-slide__content">
                     <span className="services-slide__eyebrow">06 / Curb Appeal</span>
