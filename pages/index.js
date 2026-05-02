@@ -64,7 +64,6 @@ const Home = (props) => {
                 className="home-thq-hero-logo-image-elm"
               />
             </div>
-            <div className="home-thq-hero-overlay-elm hero-overlay"></div>
           </div>
           <div className="hero-container">
             <h1 className="home-hero-title hero-title">
@@ -555,21 +554,13 @@ to {transform: scaleX(1);}}@keyframes bounce {0%,20%,50%,80%,100% {transform: tr
           .hero-bg-photo {
             animation: none !important;
             display: block;
-            background: #000;
+            filter: none !important;
+            transform: none !important;
           }
           .home-thq-hero-logo-image-elm {
             width: 140px;
             height: auto;
             display: block;
-          }
-          .home-thq-hero-overlay-elm {
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.45);
           }
           .home-container2 {
             display: none;

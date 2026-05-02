@@ -2272,15 +2272,20 @@
   animation: slowZoom 20s infinite alternate ease-in-out;
   object-fit: cover;
 }
- 
-.hero-overlay {
+
+.hero-bg-image.hero-bg-photo {
+  animation: none !important;
+  filter: none;
+  transform: none;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  position: absolute;
-  background: var(--color-scrim);
+  z-index: 0;
+}
+
+.hero-bg-wrapper > .hero-logo-card {
+  position: relative;
+  z-index: 1;
 }
  
 .hero-logo-card {
