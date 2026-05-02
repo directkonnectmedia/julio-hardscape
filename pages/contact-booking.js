@@ -349,14 +349,14 @@ const ContactBooking = (props) => {
               <h2 className="section-title">Our Services</h2>
               <div className="services-glance__line"></div>
             </div>
-            <div className="services-glance__grid services-glance__grid--two">
+            <div className="services-glance__grid">
               <div className="service-mini-card">
                 <div className="service-mini-card__icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
-                    viewbox="0 0 24 24"
+                    viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="2"
@@ -375,7 +375,7 @@ const ContactBooking = (props) => {
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
-                    viewbox="0 0 24 24"
+                    viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="2"
@@ -387,6 +387,87 @@ const ContactBooking = (props) => {
                   </svg>
                 </div>
                 <h4 className="service-mini-card__title">Artificial Turf</h4>
+              </div>
+              <div className="service-mini-card">
+                <div className="service-mini-card__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M12 22v-7"></path>
+                    <path d="M9 8c0-2.5 1.5-4 3-4s3 1.5 3 4-1.5 4-3 4-3-1.5-3-4Z"></path>
+                    <path d="M7 12c-2 0-4 1.5-4 4v2h8"></path>
+                    <path d="M17 12c2 0 4 1.5 4 4v2h-8"></path>
+                  </svg>
+                </div>
+                <h4 className="service-mini-card__title">Palm Tree Services</h4>
+              </div>
+              <div className="service-mini-card">
+                <div className="service-mini-card__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M4 20h16"></path>
+                    <path d="M6 20V10l6-4 6 4v10"></path>
+                    <path d="M10 20v-6h4v6"></path>
+                  </svg>
+                </div>
+                <h4 className="service-mini-card__title">Framing</h4>
+              </div>
+              <div className="service-mini-card">
+                <div className="service-mini-card__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M3 9l9-6 9 6v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"></path>
+                    <path d="M9 22V12h6v10"></path>
+                  </svg>
+                </div>
+                <h4 className="service-mini-card__title">Pergola &amp; Gazebo</h4>
+              </div>
+              <div className="service-mini-card">
+                <div className="service-mini-card__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="m16 16 3-3"></path>
+                    <path d="M16 8 8 16"></path>
+                    <path d="M8 8h.01"></path>
+                    <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                  </svg>
+                </div>
+                <h4 className="service-mini-card__title">Yard Cleaning</h4>
               </div>
             </div>
           </div>

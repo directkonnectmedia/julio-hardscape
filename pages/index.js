@@ -134,6 +134,42 @@ const Home = (props) => {
                     <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
                   </div>
                 </div>
+                <div className="services-slide" data-slide="2" style={{ backgroundImage: "url(/photos/stock-trees-plants.jpg)" }}>
+                  <div className="services-slide__overlay"></div>
+                  <div className="services-slide__content">
+                    <span className="services-slide__eyebrow">03 / Desert Palms</span>
+                    <h3 className="services-slide__title">Palm Tree Services</h3>
+                    <p className="services-slide__desc">Trimming, care, and new palm installs suited to Arizona heat — healthier trees, safer branches, and a polished look.</p>
+                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
+                  </div>
+                </div>
+                <div className="services-slide" data-slide="3" style={{ backgroundImage: "url(/photos/photo-32.jpg)" }}>
+                  <div className="services-slide__overlay"></div>
+                  <div className="services-slide__content">
+                    <span className="services-slide__eyebrow">04 / Solid Structure</span>
+                    <h3 className="services-slide__title">Framing</h3>
+                    <p className="services-slide__desc">Structural framing for pergolas, patio covers, and outdoor features — plumb, square, and built to handle the elements.</p>
+                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
+                  </div>
+                </div>
+                <div className="services-slide" data-slide="4" style={{ backgroundImage: "url(/photos/photo-52.jpg)" }}>
+                  <div className="services-slide__overlay"></div>
+                  <div className="services-slide__content">
+                    <span className="services-slide__eyebrow">05 / Shade &amp; Shelter</span>
+                    <h3 className="services-slide__title">Pergola &amp; Gazebo Installation</h3>
+                    <p className="services-slide__desc">We install pergolas and gazebos and fabricate custom structures to match your space, style, and how you live outside.</p>
+                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
+                  </div>
+                </div>
+                <div className="services-slide" data-slide="5" style={{ backgroundImage: "url(/photos/photo-08.jpg)" }}>
+                  <div className="services-slide__overlay"></div>
+                  <div className="services-slide__content">
+                    <span className="services-slide__eyebrow">06 / Curb Appeal</span>
+                    <h3 className="services-slide__title">Yard Cleaning Services</h3>
+                    <p className="services-slide__desc">Debris removal, bed cleanups, and seasonal refreshes — a neat, welcoming yard without spending your weekends on it.</p>
+                    <a href="#booking" className="services-slide__cta"><span>Get a Quote</span></a>
+                  </div>
+                </div>
               </div>
               <button id="servicesNext" aria-label="Next service" className="services-carousel__nav services-carousel__nav--next">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
@@ -141,6 +177,10 @@ const Home = (props) => {
               <div id="servicesDots" className="services-carousel__dots">
                 <button data-dot="0" className="services-carousel__dot is-active" aria-label="Go to service 1"></button>
                 <button data-dot="1" className="services-carousel__dot" aria-label="Go to service 2"></button>
+                <button data-dot="2" className="services-carousel__dot" aria-label="Go to service 3"></button>
+                <button data-dot="3" className="services-carousel__dot" aria-label="Go to service 4"></button>
+                <button data-dot="4" className="services-carousel__dot" aria-label="Go to service 5"></button>
+                <button data-dot="5" className="services-carousel__dot" aria-label="Go to service 6"></button>
               </div>
               <div className="services-carousel__progress"><div id="servicesProgress" className="services-carousel__progress-bar"></div></div>
             </div>

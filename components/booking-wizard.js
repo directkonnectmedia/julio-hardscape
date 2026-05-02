@@ -5,6 +5,10 @@ import { GOOGLE_FORM } from '../lib/google-form-config'
 const SERVICES = [
   { value: 'pavers', label: 'Paver Installation', desc: 'Driveways, patios, walkways' },
   { value: 'turf', label: 'Artificial Turf', desc: 'Year-round green lawns' },
+  { value: 'palm-tree', label: 'Palm Tree Services', desc: 'Trimming, care & installs' },
+  { value: 'framing', label: 'Framing', desc: 'Structural outdoor framing' },
+  { value: 'pergola-gazebo', label: 'Pergola & Gazebo Installation', desc: 'Install & custom fabrication' },
+  { value: 'yard-cleaning', label: 'Yard Cleaning Services', desc: 'Cleanups & debris removal' },
 ]
 
 const STEPS = ['Service', 'Project', 'Contact', 'Review']

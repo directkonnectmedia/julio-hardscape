@@ -18,6 +18,30 @@ const SERVICES = [
     description:
       'Lush, green, year-round lawns with zero water waste. Pet-friendly, UV-stable turf with proper drainage and shock pads \u2014 perfect for families and Arizona\u2019s toughest climate.',
   },
+  {
+    title: 'Palm Tree Services',
+    image: '/photos/stock-trees-plants.jpg',
+    description:
+      'Professional palm trimming, health checks, removals when needed, and new installations chosen for Arizona\u2019s sun and soil. Clean canopy lines and safer, stronger trees.',
+  },
+  {
+    title: 'Framing',
+    image: '/photos/photo-32.jpg',
+    description:
+      'Structural framing for pergolas, patio covers, and custom outdoor builds. We focus on precise layout and solid connections so your shade structures and additions last.',
+  },
+  {
+    title: 'Pergola & Gazebo Installation',
+    image: '/photos/photo-52.jpg',
+    description:
+      'We install pergolas and gazebos and fabricate custom designs to match your patio, pool deck, or backyard. From standard kits to fully custom sizes, materials, and finishes.',
+  },
+  {
+    title: 'Yard Cleaning Services',
+    image: '/photos/photo-08.jpg',
+    description:
+      'Seasonal cleanups, debris and green-waste haul-off, bed edging, and tidy-ups after storms or projects \u2014 a polished yard without spending your weekends on it.',
+  },
 ]
 
 export default function ServicesPage() {
@@ -28,7 +52,7 @@ export default function ServicesPage() {
         <meta property="og:title" content="Services — Julio Hardscape" />
         <meta
           name="description"
-          content="Premium paver installation and artificial turf across the Arizona West Valley."
+          content="Pavers, artificial turf, palm care, framing, custom pergolas and gazebos, and yard cleaning across the Arizona West Valley."
         />
       </Head>
       <div className="sv-page">
