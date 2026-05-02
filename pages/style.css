@@ -860,7 +860,7 @@
  
 .navigation-brand-name {
   color: var(--color-primary);
-  font-size: var(--font-size-4xl);
+  font-size: calc(var(--font-size-4xl) * 0.5);
   font-style: var(--font-style-heading);
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
@@ -3113,7 +3113,7 @@
     padding-inline: var(--spacing-md);
   }
   .navigation-brand-name {
-    font-size: var(--font-size-3xl);
+    font-size: calc(var(--font-size-3xl) * 0.5);
   }
   .footer-logo-wrapper {
     align-items: flex-start;

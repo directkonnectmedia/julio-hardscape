@@ -52,7 +52,7 @@ const Home = (props) => {
           <div className="hero-bg-wrapper">
             <img
               className="hero-bg-image hero-bg-photo"
-              src="/photos/photo-18.jpg"
+              src="/photos/photo-38.jpg"
               alt=""
               decoding="async"
               aria-hidden="true"
