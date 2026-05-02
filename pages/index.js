@@ -50,14 +50,11 @@ const Home = (props) => {
         <Navigation></Navigation>
         <section className="hero-section">
           <div className="hero-bg-wrapper">
-            <video
-              className="hero-bg-image hero-bg-video"
-              src="/videos/hero.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="auto"
+            <img
+              className="hero-bg-image hero-bg-photo"
+              src="/photos/hero-background.jpg"
+              alt=""
+              decoding="async"
               aria-hidden="true"
             />
             <div className="hero-logo-card">
@@ -555,7 +552,7 @@ to {transform: scaleX(1);}}@keyframes bounce {0%,20%,50%,80%,100% {transform: tr
             width: 100%;
             min-height: 100vh;
           }
-          .hero-bg-video {
+          .hero-bg-photo {
             animation: none !important;
             display: block;
             background: #000;
